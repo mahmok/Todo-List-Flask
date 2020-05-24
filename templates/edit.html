@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+<div class="main-container">
+    <div class="header">
+        <p style="text-align: left; font-weight: bold;  font-size: 20px; flex: 1;">Edit Item</p>
+    </div>
+
+    <br>
+    <div class="form-container">
+        <form id="create-form" method="post" action="/items/edit/{{item.id}}">
+
+            <p>Title</p>
+            <input id="title" name="title" type="text" placeholder="Enter Title" value="{{item.title}}">
+            <br>
+            <br>
+            <p>Description</p>
+            <textarea id="description" name="description" placeholder="Enter Description" value="{{item.description}}">{{item.description}}</textarea>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit">SAVE</button>
+        </form>
+
+    </div>
+
+
+</div>
+
+</body>
+</html>

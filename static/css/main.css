@@ -1,0 +1,159 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    padding: 1rem;
+    margin: 2rem 10rem;
+}
+
+.header {
+    display: flex;
+    background-color: #272838;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.yellow-btn {
+    background-color: #F3DE8A;
+    padding: 0.5rem;
+    color: #272838;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+
+}
+
+.yellow-btn:hover {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+thead
+{
+    background-color: #7E7F9A;
+    color: white;
+}
+
+
+td,
+th {
+    border: 1px solid #272838;
+    text-align: left;
+    padding: 8px;
+}
+
+tbody tr:hover
+{
+    background-color: #F3DE8A;
+    cursor: pointer;
+}
+
+
+.edit-btn
+{
+    background-color: #272838;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.status-btn
+{
+    background-color: lightgreen;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.delete-btn
+{
+    background-color: #EB9486;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.delete-btn:hover
+{
+    cursor: pointer;
+}
+
+.status-btn:hover
+{
+    cursor: pointer;
+}
+
+.edit-btn:hover
+{
+    cursor: pointer;
+}
+
+
+.form-container
+{
+    text-align: center;
+}
+
+#create-form
+{
+    text-align: left;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+
+#create-form p
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1px;
+    color: #272838;
+}
+
+#create-form input, #create-form textarea
+{
+    width: 200px;
+    padding: 0.8rem 0.5rem;
+    border: none;
+    border: 2px solid #272838;
+    border-radius: 30px;
+}
+
+#create-form input:focus, #create-form textarea:focus
+{
+    outline: none;
+    width: 200px;
+    padding: 0.8rem 0.5rem;
+    border: none;
+    border: 2px solid #EB9486;
+    border-radius: 30px;
+}
+
+#create-form button 
+{
+    width: 100%;
+    background-color: #272838;
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
